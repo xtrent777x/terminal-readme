@@ -16,9 +16,40 @@ const init = () => {
             message: 'Enter your project description.',
         },
         {
-            type: 'list',
+            type: 'input',
+            name:'table',
+            message: 'Create a table table of contents'
+        },
+        {
+            type: 'input',
+            name:'install',
+            message: 'Provide install instructions'
+        },
+        {
+            type: 'list',     
             name: 'license',
-            message: 'What license was used for this project?',
+            choices: ['Apache License v2.0', 'GNU General Public License v3.0', 'MIT License', 'Boost'],   //https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
+            message: 'What license was used for this project (choose one) ?',
+        },
+        {
+            type: 'input',
+            name:'use',
+            message: 'What is your project used for?'
+        },
+        {
+            type: 'input',
+            name:'involved',
+            message: 'Who all contributed to this project'
+        },
+        {
+            type: 'input',
+            name:'test',
+            message: 'what test did you run to insure no errors?'
+        },
+        {
+            type: 'input',
+            name:'table',
+            message: 'Create a table table of contents'
         },
         {
             type: 'input',

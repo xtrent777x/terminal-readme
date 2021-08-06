@@ -1,6 +1,7 @@
+const inquirer = require('inquirer');
+
 const fs = require('fs');
 
-const inquirer = require('inquirer');
 
 // TODO: Create an array of questions for user input
 const init = () => {
@@ -28,7 +29,7 @@ const init = () => {
         {
             type: 'list',     
             name: 'license',
-            choices: ['Apache License v2.0', 'GNU General Public License v3.0', 'MIT License', 'Boost'],   //https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
+            choices: ['Apache License v2.0', 'GNU General Public License v3.0', 'MIT License'],   //https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
             message: 'What license was used for this project (choose one) ?',
         },
         {
@@ -67,6 +68,12 @@ const init = () => {
 
     ]);
 };
+
+//Need to add markdown for list on README
+// Markdown resources how too ***
+//https://code.visualstudio.com/docs/languages/markdown
+//https://www.youtube.com/watch?v=Ix416lAYRSg
+//https://www.youtube.com/watch?v=7SMqArX8PYo
 
 // TODO: Create a function to write README file
 

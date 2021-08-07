@@ -94,14 +94,14 @@ ${answers.description}
 
 ## Table Of Contents
 
-* [Title] (#title)
-* [Description] (#description)
-* [Install] (#install)
-* [License] (#license)                 
-* [Use] (#use)
-* [Involved] (#involved)
-* [Test] (#test)
-* [Questions] (#questions)
+* [Title](#title)
+* [Description](#description)
+* [Install](#install)
+* [License](#license)                 
+* [Use](#use)
+* [Involved](#involved)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Install
 ${answers.install}

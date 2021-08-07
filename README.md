@@ -6,37 +6,37 @@
 
 ## Description*
 
-to create a readme from the command line
+creates readme
 
 ## Table Of Contents
 
-* [Title] (#title)
-* [Description] (#description)
-* [Install] (#install)
-* [License] (#license)                 
-* [Use] (#use)
-* [Involved] (#involved)
-* [Test] (#test)
-* [Questions] (#questions)
+* [Title](#title)
+* [Description](#description)
+* [Install](#install)
+* [License](#license)                 
+* [Use](#use)
+* [Involved](#involved)
+* [Test](#test)
+* [Questions](#questions)
 
 ## Install
 npm
 
 ## License
-N/A
+GNU General Public License v3.0
 
 ## Use
-creating a professional readme
+creating readme
 
 ## Involved
 me
 
 ## Test
-multiple attempts and error fixes
+testing
 
 ## Questions
 
-- See my GitHub (https://github.com/xtrent777x)
+- See my GitHub (https://github.com/xtrent777x@gmail.com)
 
 - Email me for additional help or questions: xtrent777x@gmail.com.
 

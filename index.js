@@ -1,10 +1,11 @@
 const inquirer = require('inquirer');
 
 const fs = require('fs');
-const { userInfo } = require('os');
 
 
-// TODO: Create an array of questions for user input
+
+
+// Questions for input
 const promptUser = () => {              // used from portfolio generator
     return inquirer.prompt([
         {
@@ -66,7 +67,6 @@ const promptUser = () => {              // used from portfolio generator
 };
 // TODO: Create a function to write README file
 
-
 //Need to add markdown for list on README
 // Markdown resources how too ***
 //https://code.visualstudio.com/docs/languages/markdown
@@ -77,12 +77,18 @@ const promptUser = () => {              // used from portfolio generator
 //number list 1. 2. // bullet list - - //
 // [link](linkurl) // <for link display>
 // > blockquote
+// markdown help https://guides.github.com/features/mastering-markdown/
 
-# ${response.title}
+const createReadMe = (answers) =>
+`
+
+
+
+# ${answers.title}
 
 ## Description
 
-${response.description}
+${answers.description}
 
 ## Table Of Contents
 
@@ -90,34 +96,34 @@ ${response.description}
 * Description
 * Table
 * Install
-* License                       /// markdown help https://guides.github.com/features/mastering-markdown/
+* License                      
 * use
 * Involved
 * Test
 * Questions
 
 ## Install
-${response.install}
+${answers.install}
 
 ## License 
-${response.license}
+${answers.license}
 
 ## Use
-${response.use}
+${answers.use}
 
 ## Involved
-${response.involved}
+${answers.involved}
 
 ## Test
-${response.test}
+${answers.test}
 
 ## Questions
 
-- See my GitHub (https://github.com/${response.githubName})
+- See my GitHub (https://github.com/${answers.githubName})
 
-- Email me for additional help or questions: ${response.email}.
+- Email me for additional help or questions: ${answers.email}.
 
-
+`;
 
 
 
@@ -127,5 +133,5 @@ ${response.test}
 
 //app Call
 
-init()
+promptUser()
 

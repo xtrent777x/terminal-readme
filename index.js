@@ -87,7 +87,7 @@ const createReadMe = (answers) =>
 
 # ${answers.title}
 
-## Description
+## Description*
 
 ${answers.description}
 
@@ -106,7 +106,7 @@ ${answers.description}
 ## Install
 ${answers.install}
 
-## License 
+## License
 ${answers.license}
 
 ## Use

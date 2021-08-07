@@ -2,7 +2,12 @@ const inquirer = require('inquirer');
 
 const fs = require('fs');
 
+const util = require('util');
 
+const writeFileReadMe = util.promisify(fs.writeFile);
+
+//https://www.geeksforgeeks.org/node-js-util-promisify-method/
+//https://hackernoon.com/node8s-util-promisify-is-so-freakin-awesome-1d90c184bf44
 
 
 // Questions for input
@@ -123,11 +128,13 @@ ${answers.test}
 
 
 
-//function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
 
 //app Call
 
 promptUser()
-
+.then((answers) => writeFileReadMe('README.md', createReadMe(answers)))
+.then (() => console.log ('README has been created'))               //.then from module portfolio generator
+.catch (err => {
+    console.log (err)
+})

@@ -4,9 +4,9 @@
 
 # README
 
-## Description*
+## Description
 
-to create readme
+description
 
 ## Table Of Contents
 
@@ -21,26 +21,26 @@ to create readme
 * [Questions](#questions)
 
 ## Install
-npm
+install
 
 ## License
-N/A
+EPL
 
 ## Languages
-HTML,CSS,ES6
+CSS
 
 ## Use
-generating readme
+use
 
 ## Involved
 me
 
 ## Test
-n/a
+tested
 
 ## Questions
 
-- See my GitHub (https://github.com/zdbgsdgv)
+- See my GitHub (https://github.com/yser)
 
-- Email me for additional help or questions: dagdgage.
+- Email me for additional help or questions: yser.
 

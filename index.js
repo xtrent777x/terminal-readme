@@ -17,54 +17,134 @@ const promptUser = () => {              // used from portfolio generator
             type: 'input',
             name: 'title',
             message: 'What is your project title?',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter a project title!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name: 'description',
             message: 'Enter your project description.',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter a project description!');
+                  return false;
+                }
+              }
         },
     
         {
             type: 'input',
             name:'install',
-            message: 'Provide install instructions'
+            message: 'Provide install instructions',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter install instruction!');
+                  return false;
+                }
+              }
         },
         {
             type: 'list',     
             name: 'license',
             choices: ['GNU General Public License v3.0', 'Apache License v2.0', 'Ms-PL', 'BSD', 'CDDL', 'EPL', 'MIT License', 'N/A'],   //https://www.whitesourcesoftware.com/resources/blog/open-source-licenses-explained/
             message: 'What license was used for this project (choose one) ?',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter a license or n/a!');
+                  return false;
+                }
+              }
         },
         {
             type: 'checkbox',
             name: 'language',
             choices: ['HTML', 'CSS', 'ES6', 'JavaScript', 'jQuery', 'Node' ],
-            message: 'What languages were used in the project?'
+            message: 'What languages were used in the project?',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to at least one language used!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name:'use',
-            message: 'What is your project used for?'
+            message: 'What is your project used for?',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter a project use!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name:'involved',
-            message: 'Who all contributed to this project'
+            message: 'Who all contributed to this project',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter who was involved with the project!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name:'test',
-            message: 'what test did you run to insure no errors?'
+            message: 'what test did you run to insure no errors?',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter how this was tested!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name: 'githubName',
-            message: 'What is your GitHub username?' //needs link as well to Github??
+            message: 'What is your GitHub username?', //needs link as well to Github??
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter GitHub user name!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name: 'email',
-            message: 'What is your email address?'
+            message: 'What is your email address?',
+            validate: nameInput => {
+                if (nameInput) {
+                  return true;
+                } else {
+                  console.log('You need to enter your email!');
+                  return false;
+                }
+              }
         },
 
 

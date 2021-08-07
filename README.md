@@ -2,22 +2,22 @@
 
 
 
-# README
+# README CREATOR
 
 ## Description*
 
-creating a readme from terminal
+to create a readme from the command line
 
 ## Table Of Contents
 
-* Title (#title)
-* Description (#description)
-* Install (#install)
-* License (#license)                 
-* use (#use)
-* Involved (#involved)
-* Test (#test)
-* Questions (#questions)
+* [Title] (#title)
+* [Description] (#description)
+* [Install] (#install)
+* [License] (#license)                 
+* [Use] (#use)
+* [Involved] (#involved)
+* [Test] (#test)
+* [Questions] (#questions)
 
 ## Install
 npm
@@ -26,13 +26,13 @@ npm
 N/A
 
 ## Use
-creating README
+creating a professional readme
 
 ## Involved
 me
 
 ## Test
-multiple attempts
+multiple attempts and error fixes
 
 ## Questions
 

@@ -2,18 +2,19 @@
 
 
 
-# README CREATOR
+# README
 
 ## Description*
 
-creates readme
+to create readme
 
 ## Table Of Contents
 
 * [Title](#title)
 * [Description](#description)
 * [Install](#install)
-* [License](#license)                 
+* [License](#license)   
+* [language](#language)              
 * [Use](#use)
 * [Involved](#involved)
 * [Test](#test)
@@ -23,20 +24,23 @@ creates readme
 npm
 
 ## License
-GNU General Public License v3.0
+N/A
+
+## Languages
+HTML,CSS,ES6
 
 ## Use
-creating readme
+generating readme
 
 ## Involved
 me
 
 ## Test
-testing
+n/a
 
 ## Questions
 
-- See my GitHub (https://github.com/xtrent777x@gmail.com)
+- See my GitHub (https://github.com/zdbgsdgv)
 
-- Email me for additional help or questions: xtrent777x@gmail.com.
+- Email me for additional help or questions: dagdgage.
 

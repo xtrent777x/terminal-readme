@@ -36,6 +36,12 @@ const promptUser = () => {              // used from portfolio generator
             message: 'What license was used for this project (choose one) ?',
         },
         {
+            type: 'checkbox',
+            name: 'language',
+            choices: ['HTML', 'CSS', 'ES6', 'JavaScript', 'jQuery', 'Node' ],
+            message: 'What languages were used in the project?'
+        },
+        {
             type: 'input',
             name:'use',
             message: 'What is your project used for?'
@@ -97,7 +103,8 @@ ${answers.description}
 * [Title](#title)
 * [Description](#description)
 * [Install](#install)
-* [License](#license)                 
+* [License](#license)   
+* [language](#language)              
 * [Use](#use)
 * [Involved](#involved)
 * [Test](#test)
@@ -108,6 +115,9 @@ ${answers.install}
 
 ## License
 ${answers.license}
+
+## Languages
+${answers.language}
 
 ## Use
 ${answers.use}

@@ -79,6 +79,7 @@ const promptUser = () => {              // used from portfolio generator
 // [link](linkurl) // <for link display>
 // > blockquote
 // markdown help https://guides.github.com/features/mastering-markdown/
+// link for help with add link to table https://gist.github.com/rachelhyman/b1f109155c9dafffe618
 
 const createReadMe = (answers) =>
 `
@@ -93,15 +94,14 @@ ${answers.description}
 
 ## Table Of Contents
 
-* Title
-* Description
-* Table
-* Install
-* License                      
-* use
-* Involved
-* Test
-* Questions
+* Title (#title)
+* Description (#description)
+* Install (#install)
+* License (#license)                 
+* use (#use)
+* Involved (#involved)
+* Test (#test)
+* Questions (#questions)
 
 ## Install
 ${answers.install}

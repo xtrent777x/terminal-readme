@@ -4,38 +4,37 @@
 
 # README
 
-## *Description*
+## Description*
 
-creates professional readme
+creating a readme from terminal
 
-## *Table Of Contents*
+## Table Of Contents
 
-* Title
-* Description
-* Table
-* Install
-* License                      
-* use
-* Involved
-* Test
-* Questions
+* Title (#title)
+* Description (#description)
+* Install (#install)
+* License (#license)                 
+* use (#use)
+* Involved (#involved)
+* Test (#test)
+* Questions (#questions)
 
-## *Install*
+## Install
 npm
 
-## *License* 
+## License
 N/A
 
-## *Use*
-readme
+## Use
+creating README
 
-## *Involved*
+## Involved
 me
 
-## *Test*
-multiple attempts and error clearing
+## Test
+multiple attempts
 
-## *Questions*
+## Questions
 
 - See my GitHub (https://github.com/xtrent777x)
 

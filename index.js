@@ -94,7 +94,7 @@ const createReadMe = (answers) =>
 
 # ${answers.title}
 
-## Description*
+## Description
 
 ${answers.description}
 

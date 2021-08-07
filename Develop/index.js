@@ -1,14 +1,15 @@
 const inquirer = require('inquirer');
 
 const fs = require('fs');
+const { userInfo } = require('os');
 
 
 // TODO: Create an array of questions for user input
-const init = () => {
+const promptUser = () => {              // used from portfolio generator
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'project title',
+            name: 'title',
             message: 'What is your project title?',
         },
         {
@@ -29,7 +30,7 @@ const init = () => {
         {
             type: 'list',     
             name: 'license',
-            choices: ['Apache License v2.0', 'GNU General Public License v3.0', 'MIT License'],   //https://medium.com/swlh/how-to-make-the-perfect-readme-md-on-github-92ed5771c061
+            choices: ['GNU General Public License v3.0', 'Apache License v2.0', 'Ms-PL', 'BSD', 'CDDL', 'EPL', 'MIT License'],   //https://www.whitesourcesoftware.com/resources/blog/open-source-licenses-explained/
             message: 'What license was used for this project (choose one) ?',
         },
         {
@@ -49,11 +50,6 @@ const init = () => {
         },
         {
             type: 'input',
-            name:'table',
-            message: 'Create a table table of contents'
-        },
-        {
-            type: 'input',
             name: 'githubName',
             message: 'What is your GitHub username?', //needs link as well to Github??
         },
@@ -68,20 +64,64 @@ const init = () => {
 
     ]);
 };
+// TODO: Create a function to write README file
+
 
 //Need to add markdown for list on README
 // Markdown resources how too ***
 //https://code.visualstudio.com/docs/languages/markdown
 //https://www.youtube.com/watch?v=Ix416lAYRSg
 //https://www.youtube.com/watch?v=7SMqArX8PYo
+// # biggest ## smaller ..
+// ** bold
+//number list 1. 2. // bullet list - - //
+// [link](linkurl) // <for link display>
+// > blockquote
 
-// TODO: Create a function to write README file
+# ${response.title}
+
+## Description
+
+${response.description}
+
+## Table Of Contents
+
+* Title
+* Description
+* Table
+* Install
+* License                       /// markdown help https://guides.github.com/features/mastering-markdown/
+* use
+* Involved
+* Test
+* Questions
+
+## Install
+${response.title}
+
+## License 
+${response.title}
+
+## Involved
+${response.title}
+
+## Use
+${response.title}
+
+## Test
+${response.title}
+
+## Questions
+${response.title}
+
+
+
 
 //function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 
-//function init() {}
+//app Call
 
-// Function call to initialize app
-init();
+init()
+

@@ -30,7 +30,7 @@ const promptUser = () => {              // used from portfolio generator
         {
             type: 'list',     
             name: 'license',
-            choices: ['GNU General Public License v3.0', 'Apache License v2.0', 'Ms-PL', 'BSD', 'CDDL', 'EPL', 'MIT License'],   //https://www.whitesourcesoftware.com/resources/blog/open-source-licenses-explained/
+            choices: ['GNU General Public License v3.0', 'Apache License v2.0', 'Ms-PL', 'BSD', 'CDDL', 'EPL', 'MIT License', 'N/A'],   //https://www.whitesourcesoftware.com/resources/blog/open-source-licenses-explained/
             message: 'What license was used for this project (choose one) ?',
         },
         {
@@ -51,13 +51,13 @@ const promptUser = () => {              // used from portfolio generator
         {
             type: 'input',
             name: 'githubName',
-            message: 'What is your GitHub username?', //needs link as well to Github??
+            message: 'What is your GitHub username?' //needs link as well to Github??
         },
         {
             type: 'input',
             name: 'email',
-            message: 'What is your email address?',
-        }
+            message: 'What is your email address?'
+        },
 
 
 
@@ -97,22 +97,26 @@ ${response.description}
 * Questions
 
 ## Install
-${response.title}
+${response.install}
 
 ## License 
-${response.title}
-
-## Involved
-${response.title}
+${response.license}
 
 ## Use
-${response.title}
+${response.use}
+
+## Involved
+${response.involved}
 
 ## Test
-${response.title}
+${response.test}
 
 ## Questions
-${response.title}
+
+- See my GitHub (https://github.com/${response.githubName})
+
+- Email me for additional help or questions: ${response.email}.
+
 
 
 

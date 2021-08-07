@@ -18,11 +18,7 @@ const promptUser = () => {              // used from portfolio generator
             name: 'description',
             message: 'Enter your project description.',
         },
-        {
-            type: 'input',
-            name:'table',
-            message: 'Create a table table of contents'
-        },
+    
         {
             type: 'input',
             name:'install',

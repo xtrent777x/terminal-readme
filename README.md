@@ -2,11 +2,11 @@
 
 
 
-# README
+# terminal-readme
 
 ## Description
 
-description
+This project is to help generate a professional readme from the command line. The user will/is pro,pted with several questions. That data is taken and put into a README.md document that will be generated upon completion of the questions.
 
 ## Table Of Contents
 
@@ -21,26 +21,26 @@ description
 * [Questions](#questions)
 
 ## Install
-install
+To install the user must have/use the command line. Node must be installed on the user computer as well as downloading and having installed npm package inquirer.
 
 ## License
-EPL
+N/A
 
 ## Languages
-CSS
+ES6,JavaScript,Node
 
 ## Use
-use
+This is used as a quick professinal README.md generator for any projects being worked on.
 
 ## Involved
-me
+me and the resources researched on various topics noted in the code
 
 ## Test
-tested
+several test runs and error corrections to make sure nothing was stopping it from running
 
 ## Questions
 
-- See my GitHub (https://github.com/yser)
+- See my GitHub (https://github.com/xtrent777x)
 
-- Email me for additional help or questions: yser.
+- Email me for additional help or questions: xtrent777x@gmail.com.
 

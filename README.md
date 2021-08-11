@@ -8,41 +8,17 @@
 
 This project is to help generate a professional readme from the command line. The user will/is prompted with several questions. That data is taken and put into a README.md document that will generate upon completion of all the questions
 
-## Table Of Contents
+## Language
 
-* [Title](#title)
-* [Description](#description)
-* [Install](#install)
-* [License](#license)   
-* [language](#language)              
-* [Use](#use)
-* [Involved](#involved)
-* [Test](#test)
-* [Questions](#questions)
+![NodeJS](https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Install
-To install the user muct have/use the command line. Node must be installed on the user computer and as well have and download the NPM iquirer package
+## See live demo and snip its
+ - see the demo https://drive.google.com/file/d/1XWlihrfHtzD07y-Gpq_F9rYM_IhBXYPf/view
+ 
 
-## License
-N/A
+![screenshot1](https://user-images.githubusercontent.com/84681402/128962505-f9ca7133-1a14-4a50-a91f-7bbd537a8ff4.png)
 
-## Languages
-ES6,JavaScript,Node
 
-## Use
-This is used to create a professional README to auto generate based on completed questionair of what been selected for any future projects.
-
-## Involved
-Me, and the several resources listed commented out in the code.
-
-## Test
-Ran several attempts throughout the creation to insure ran effectively and correctly and fixed any errors that came up throughout the process.
-
-## Questions
-
-- See my GitHub (https://github.com/xtrent777x)
-
-- Email me for additional help or questions: xtrent777x@gmail.com.
-
-- see the demo https://drive.google.com/file/d/1XWlihrfHtzD07y-Gpq_F9rYM_IhBXYPf/view
-
+![screenshot2](https://user-images.githubusercontent.com/84681402/128962533-fab4db85-f6a3-4b19-9f04-b28e36de9a09.png)

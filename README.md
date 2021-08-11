@@ -6,7 +6,7 @@
 
 ## Description
 
-This project is to help generate a professional readme from the command line. The user will/is prompted with several questions. That data is taken and put into a README.md document that will generate upon completion of all the questions
+This project is to help generate a professional readme from the command line. The user will/is prompted with several questions. That data is taken and put into a README.md document that will generate upon completion of all the questions. Node, JavaScript, NPM and ES6 were used in the creation this project. 
 
 ## Language
 
